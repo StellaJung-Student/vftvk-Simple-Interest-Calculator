@@ -1,4 +1,69 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: black;
+}
+h1 {
+  color: grey;
+}
 
+.maindiv {
+  width: 550px;
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.main {
+  padding: 1rem;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+#rate {
+  flex: 5;
+}
+
+.input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  display: flex;
+  position: relative;
+}
+
+.input label {
+  flex: 4;
+}
+
+.input input[type='range'] {
+  position: absolute;
+  left: 39%;
+  top: 20%;
+  right: 0;
+}
+
+.input input {
+  flex: 6;
+}
+
+.input select {
+  flex: 6;
+}
